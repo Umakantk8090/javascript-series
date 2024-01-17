@@ -20,8 +20,8 @@
 // console.log(2%3);
 
 
-let str1="hello"
-let str2=" umakant"
-let str=str1+str2;
-console.log(str);
+// let str1 = "hello"
+// let str2 = " umakant"
+// let str = str1 + str2;
+// console.log(str);
 
