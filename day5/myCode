@@ -1,0 +1,31 @@
+//string 
+const myName="umakant"
+const repoCount=25
+// console.log(myName + repoCount);
+console.log(`my name is ${myName} and my repo count is ${repoCount}`);
+const gameName=new String('umakant-k')
+console.log(gameName.split('-'));
+// console.log(gameName.__proto__);
+console.log(gameName.length);
+console.log(gameName.toLocaleUpperCase());
+console.log(gameName.toLocaleUpperCase().charAt(2));
+console.log(gameName.indexOf('k'));
+
+
+const newString = gameName.substring(0,4)
+console.log(newString);
+
+const anotherString = gameName.slice(-8,4)
+console.log(anotherString);
+
+const newStringOne = "  umakant  "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+
+const url="https://hitesh.com/hitesh%20chaudhry"
+console.log(url.replace('%20', '-'));
+
+console.log(url.includes('hitesh'));
+
+
